@@ -13,6 +13,7 @@
 		18AABCE21E9B639200502322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AABCE01E9B639200502322 /* Main.storyboard */; };
 		18AABCE41E9B639200502322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AABCE31E9B639200502322 /* Assets.xcassets */; };
 		18AABCE71E9B639200502322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AABCE51E9B639200502322 /* LaunchScreen.storyboard */; };
+		18AABCF01E9B63AF00502322 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AABCEF1E9B63AF00502322 /* NSObject+KVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		18AABCE31E9B639200502322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18AABCE61E9B639200502322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18AABCE81E9B639200502322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AABCEE1E9B63AF00502322 /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		18AABCEF1E9B63AF00502322 /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		18AABCD61E9B639200502322 /* KVO */ = {
 			isa = PBXGroup;
 			children = (
+				18AABCEE1E9B63AF00502322 /* NSObject+KVO.h */,
+				18AABCEF1E9B63AF00502322 /* NSObject+KVO.m */,
 				18AABCDA1E9B639200502322 /* AppDelegate.h */,
 				18AABCDB1E9B639200502322 /* AppDelegate.m */,
 				18AABCDD1E9B639200502322 /* ViewController.h */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AABCF01E9B63AF00502322 /* NSObject+KVO.m in Sources */,
 				18AABCDF1E9B639200502322 /* ViewController.m in Sources */,
 				18AABCDC1E9B639200502322 /* AppDelegate.m in Sources */,
 				18AABCD91E9B639200502322 /* main.m in Sources */,
